@@ -1,6 +1,8 @@
 # Insurance Category Estimator
 
-A FastAPI service and Streamlit client for a transparent, rule-based insurance risk-category estimate. The estimate uses age band, BMI group, smoking status, and a small city-tier lookup. Income and occupation are collected for profile context but do not affect the score.
+> A FastAPI and Streamlit app for transparent, rule-based insurance risk-category estimates.
+
+The estimate uses age band, BMI group, smoking status, and a small city-tier lookup. Income and occupation are collected for profile context but do not affect the score.
 
 This project does not use a trained model or claim to reproduce insurer pricing. Its output is educational only, not an insurance quote or medical advice.
 
